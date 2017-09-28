@@ -1,12 +1,13 @@
 //jshint esversion: 6
 
 class StringBuilder {
-  // constructor(string) {
-  //   this.string = string;
-  // }
+  constructor(string) {
+    this.string = string;
+  }
 
-  reverse() {
-    return this.reverse;
+  reverse(string) {
+
+    //return this.reverse;
   }
 
   capitalize() {
@@ -25,5 +26,10 @@ class StringBuilder {
     return this.toString;
   }
 }
+
+
+var test = new StringBuilder();
+console.log(test.reverse("foo"));
+
 
 module.exports = StringBuilder;
